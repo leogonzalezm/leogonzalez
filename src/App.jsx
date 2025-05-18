@@ -48,7 +48,7 @@ function App() {
           </a>
           <a href="mailto:leonardo@sinergiza.cl">
             <FaEnvelope className="link-icon" />
-            <span className="link-text">Escríbeme un email</span>
+            <span className="link-text">Envíame un Email</span>
           </a>
           <a href="https://wa.me/56963065167" target="_blank" rel="noopener noreferrer">
             <FaWhatsapp className="link-icon" />

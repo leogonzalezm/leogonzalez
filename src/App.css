@@ -228,7 +228,7 @@ h1, .profile-section h1 {
 }
 .links a:nth-child(2):hover {
   background: #ff6464;
-  color: #231c4a;
+  color: #231c4a !important;
   border-color: #231c4a;
 }
 .container.dark .links a:nth-child(2) {
@@ -238,7 +238,7 @@ h1, .profile-section h1 {
 }
 .container.dark .links a:nth-child(2):hover {
   background: #ff6464;
-  color: #231c4a;
+  color: #231c4a !important;
   border-color: #ff6464;
 }
 .container.dark .links a, .container.dark .links button {
