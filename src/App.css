@@ -145,6 +145,32 @@ h1, .profile-section h1 {
   font-family: 'Inter', Arial, sans-serif;
 }
 
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  margin: 0.7rem 0 0.7rem 0;
+}
+.social-icon {
+  font-size: 2.1rem;
+  color: #231c4a;
+  transition: color 0.2s, transform 0.2s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.social-icon:hover {
+  color: #3cc0c7;
+  transform: scale(1.13);
+}
+.container.dark .social-icon {
+  color: #3cc0c7;
+}
+.container.dark .social-icon:hover {
+  color: #ff6464;
+}
+
 .links {
   display: flex;
   flex-direction: column;
@@ -153,13 +179,13 @@ h1, .profile-section h1 {
   width: 100%;
   max-width: 550px;
   margin: 2.2rem auto 0 auto;
-  padding-top: 0.5rem;
-  border-top: 1.5px solid #e0e0e0;
+  padding-top: 0;
+  /* border-top eliminado */
   justify-content: center;
 }
 
 .container.dark .links {
-  border-top: 1.5px solid #23272b;
+  border-top: none;
 }
 
 .links a, .links button {
@@ -215,6 +241,18 @@ h1, .profile-section h1 {
   color: #231c4a;
   border-color: #ff6464;
 }
+.container.dark .links a, .container.dark .links button {
+  background: #231c4a;
+  border: 4px solid #3cc0c7;
+  color: #3cc0c7;
+  box-shadow: 0 4px 0 0 #3cc0c7;
+}
+.container.dark .links a:hover, .container.dark .links button:hover {
+  background: #ff6464;
+  color: #231c4a;
+  border-color: #ff6464;
+}
+
 .link-icon {
   font-size: 1.35em;
   margin-right: 0;
