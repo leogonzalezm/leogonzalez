@@ -1,12 +1,49 @@
-# React + Vite
+# Sitio Web Profesional Personal – Leo González
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un sitio web profesional personal desarrollado con **React** y **Vite**.
 
-Currently, two official plugins are available:
+## Características principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Foto de perfil personalizada como favicon y en la portada
+- Descripción profesional y presentación
+- Enlaces a LinkedIn, GitHub, portafolio, WhatsApp y correo electrónico, todos con íconos
+- Botón para compartir la URL del sitio
+- Diseño moderno, responsivo y visualmente atractivo
+- Sistema de tema claro/oscuro con switcher y persistencia
+- Fuentes fluidas y responsivas
+- Botones/enlaces estilizados con glassmorphism, gradiente y animaciones
 
-## Expanding the ESLint configuration
+## Instalación y uso local
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/leogonzalezm/leogonzalez.git
+   cd leogonzalez
+   ```
+2. Instala las dependencias:
+   ```sh
+   npm install
+   ```
+3. Inicia el entorno de desarrollo:
+   ```sh
+   npm run dev
+   ```
+4. Abre [http://localhost:5173](http://localhost:5173) en tu navegador.
+
+## Despliegue en producción
+
+1. Genera la versión optimizada:
+   ```sh
+   npm run build
+   ```
+2. Sube el contenido de la carpeta `dist` a tu hosting (Vercel, Netlify, cPanel, etc.)
+
+## Personalización
+
+- Cambia la foto de perfil en `src/assets/foto-perfil.png`
+- Edita los enlaces y la descripción en `src/App.jsx`
+- Modifica estilos en `src/App.css`
+
+## Licencia
+
+Este proyecto es de uso personal. Puedes adaptarlo para tu propio portafolio o presentación profesional.
