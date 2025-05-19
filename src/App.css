@@ -105,7 +105,8 @@ h1, .profile-section h1 {
 .container.dark .links a:hover, .container.dark .links button:hover {
   background: #ff6464;
   color: #231c4a;
-  border-color: #ff6464;
+  border-color: #231c4a;
+  transform: scale(1.06);
 }
 .container.dark .links a, .container.dark .links button {
   box-shadow: 0 4px 0 0 #3cc0c7;
@@ -230,6 +231,7 @@ h1, .profile-section h1 {
   background: #ff6464;
   color: #231c4a !important;
   border-color: #231c4a;
+  transform: scale(1.06);
 }
 .container.dark .links a:nth-child(2) {
   background: #231c4a;
@@ -239,7 +241,8 @@ h1, .profile-section h1 {
 .container.dark .links a:nth-child(2):hover {
   background: #ff6464;
   color: #231c4a !important;
-  border-color: #ff6464;
+  border-color: #231c4a;
+  transform: scale(1.06);
 }
 .container.dark .links a, .container.dark .links button {
   background: #231c4a;
@@ -250,7 +253,8 @@ h1, .profile-section h1 {
 .container.dark .links a:hover, .container.dark .links button:hover {
   background: #ff6464;
   color: #231c4a;
-  border-color: #ff6464;
+  border-color: #231c4a;
+  transform: scale(1.06);
 }
 
 .link-icon {
